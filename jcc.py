@@ -1,0 +1,16 @@
+import textdistance as td
+
+#a=textdistance.hamming('test', 'text')
+#print(a)
+#b=textdistance.hamming.similarity('test', 'text')
+#print(b)
+#c=textdistance.hamming.normalized_distance('test', 'text')
+#print(c)
+d=td.sorensen_dice.similarity("python","pytho")
+e=td.cosine.similarity("python","django")
+o = td.overlap.normalized_similarity("python","djnago")
+m=td.cosine.similarity("python","python")
+print(m)
+print(o)
+print(e)
+print(d)

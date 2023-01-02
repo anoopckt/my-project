@@ -1,0 +1,12 @@
+import re
+
+# Given String
+s = "I am a human being."
+
+# Performing Sub() operation
+res_1 = re.sub('a', 'x', s)
+res_2 = re.sub('[a,I]','x',s)
+
+# Print Results
+print(res_1)
+print(res_2)
